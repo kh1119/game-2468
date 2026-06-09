@@ -175,7 +175,7 @@ export default function SettingsModal({
 
           {/* Close button */}
           <TouchableOpacity
-            style={[styles.saveButton, { backgroundColor: theme.accent }]}
+            style={[styles.saveButton, { backgroundColor: theme.accent, shadowColor: theme.accent }]}
             onPress={onClose}
           >
             <Text style={styles.saveButtonText}>Apply & Close</Text>
@@ -303,7 +303,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     marginTop: 15,
-    shadowColor: '#6366F1',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.25,
     shadowRadius: 6,

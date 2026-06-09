@@ -85,7 +85,7 @@ export default function GameOverlay({ gameOver, hasWon, score, onRestart, onKeep
           >
             <Text style={[
               styles.primaryButtonText,
-              { color: isWin ? '#4F46E5' : '#FFFFFF' }
+              { color: isWin ? theme.accent : '#FFFFFF' }
             ]}>
               {isWin ? 'Play Again' : 'Try Again'}
             </Text>

@@ -34,7 +34,8 @@ export default function Controls({ onRestart, onUndo, undoCount, onOpenSettings,
           styles.primaryButton,
           { 
             backgroundColor: theme.accent, 
-            borderColor: theme.accent 
+            borderColor: theme.accent,
+            shadowColor: theme.accent
           }
         ]}
         onPress={onRestart}
@@ -87,7 +88,6 @@ const styles = StyleSheet.create({
     elevation: 2,
   },
   primaryButton: {
-    shadowColor: '#6366F1',
     shadowOffset: { width: 0, height: 4 },
     shadowOpacity: 0.3,
     shadowRadius: 6,

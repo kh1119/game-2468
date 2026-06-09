@@ -7,10 +7,10 @@ export const colors = {
     emptyCell: 'rgba(31, 41, 55, 0.35)', // Subtle dark holes
     textPrimary: '#FFFFFF',
     textSecondary: '#94A3B8',
-    accent: '#6366F1', // Indigo Neon
-    accentLight: 'rgba(99, 102, 241, 0.15)',
+    accent: '#EF4444', // Neon Red
+    accentLight: 'rgba(239, 68, 68, 0.15)',
     buttonBg: 'rgba(30, 41, 59, 0.6)',
-    buttonBorder: 'rgba(99, 102, 241, 0.3)',
+    buttonBorder: 'rgba(239, 68, 68, 0.3)',
     scoreBg: 'rgba(17, 24, 39, 0.75)',
     shadow: '#000000',
   },
@@ -22,10 +22,10 @@ export const colors = {
     emptyCell: 'rgba(226, 232, 240, 0.7)',
     textPrimary: '#0F172A',
     textSecondary: '#64748B',
-    accent: '#4F46E5', // Deep Indigo
-    accentLight: 'rgba(79, 70, 229, 0.08)',
+    accent: '#DC2626', // Deep Red
+    accentLight: 'rgba(220, 38, 38, 0.08)',
     buttonBg: 'rgba(255, 255, 255, 0.9)',
-    buttonBorder: 'rgba(79, 70, 229, 0.2)',
+    buttonBorder: 'rgba(220, 38, 38, 0.2)',
     scoreBg: 'rgba(255, 255, 255, 0.9)',
     shadow: '#64748B',
   }
